@@ -1,13 +1,18 @@
 package com.app.Understanding_Package_Declarations_and_Imports.Code_Formatting_on_the_Exam;
 
+// ArrayList pertenece al paquete java.util.
 import java.util.ArrayList;
 
 public class CodeFormattingOnExam {
 
-    // Ejemplo del libro:
-    // El código comienza en una línea posterior a la 1.
-    // Se puede asumir que los imports están presentes.
-
+    /*
+     * EJEMPLO 1 DEL LIBRO
+     *
+     * El código comienza en la línea 6.
+     * Se puede asumir que los imports anteriores son correctos.
+     *
+     * Por lo tanto, COMPILA.
+     */
     public void method(ArrayList list) {
         if (list.isEmpty()) {
             System.out.println("e");
@@ -17,18 +22,31 @@ public class CodeFormattingOnExam {
     }
 
     /*
-     * Segundo ejemplo del libro:
+     * EJEMPLO 2 DEL LIBRO
      *
-     * 1: public class LineNumbers {
-     * 2:     public void method(ArrayList list) {
-     * 3:         ...
-     * 4:     }
-     * 5: }
+     * El código comienza en la línea 1.
+     * No podemos asumir que existen imports anteriores.
      *
-     * NO COMPILA si no existe:
+     * ArrayList necesita:
      * import java.util.ArrayList;
      *
-     * Como empieza en la línea 1, no podemos asumir
-     * que el import fue omitido.
+     * Por lo tanto, SIN este import, NO COMPILA.
      */
+
+    /*
+    public class LineNumbers {
+        public void method(ArrayList list) {
+            if (list.isEmpty()) {
+                System.out.println("e");
+            } else {
+                System.out.println("n");
+            }
+        }
+    }
+    */
+
+    public static void main(String[] args) {
+        CodeFormattingOnExam obj = new CodeFormattingOnExam();
+        obj.method(new ArrayList());
+    }
 }
