@@ -5,8 +5,9 @@ public class Swan {
     public static void main(String[] args) {
         
         Swan mother = new Swan();
+        // Escribir en la variable (setting)
         mother.numberEggs = 1;
-
+        // Leer la variable (getting)
         System.out.println(mother.numberEggs);
     }
 }
