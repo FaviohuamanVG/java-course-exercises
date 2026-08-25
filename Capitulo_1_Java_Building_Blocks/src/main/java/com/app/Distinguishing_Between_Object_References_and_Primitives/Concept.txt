@@ -1,0 +1,99 @@
+# Resumen
+
+## 1. Primitive Types
+
+Java tiene 8 tipos primitivos:
+
+* `boolean`
+* `byte`
+* `short`
+* `int`
+* `long`
+* `float`
+* `double`
+* `char`
+
+Los tipos primitivos almacenan directamente un valor.
+
+Puntos importantes:
+
+* `float` necesita `f`.
+* `long` puede necesitar `L` cuando el número es grande.
+* `char` utiliza comillas simples `'A'`.
+* `byte` tiene un rango de `-128` a `127`.
+* Los números pueden escribirse en decimal, binario, octal y hexadecimal.
+* Se pueden utilizar `_` dentro de los números para facilitar su lectura.
+
+---
+
+## 2. Reference Types
+
+Los tipos de referencia hacen referencia a objetos.
+
+Ejemplos:
+
+* `String`
+* `Date`
+* `Random`
+* `Scanner`
+* Clases creadas por el programador
+
+Ejemplo:
+
+```java
+String greeting = "How are you?";
+```
+
+La variable `greeting` contiene una referencia al objeto `String`.
+
+Los objetos pueden crearse utilizando `new`:
+
+```java
+Random r = new Random();
+```
+
+---
+
+## 3. Key Differences
+
+### Primitive Types
+
+* Guardan el valor directamente.
+* No pueden ser `null`.
+* No tienen métodos.
+* Sus nombres comienzan en minúscula.
+
+### Reference Types
+
+* Hacen referencia a objetos.
+* Pueden ser `null`.
+* Pueden utilizar métodos.
+* Las clases normalmente comienzan con mayúscula.
+
+Ejemplo:
+
+```java
+int value = 10;
+```
+
+`int` es primitivo.
+
+```java
+String text = "hello";
+text.length();
+```
+
+`String` es una referencia y puede utilizar el método `length()`.
+
+### Regla rápida
+
+```text
+Primitive → valor
+Reference → objeto
+
+Primitive → no null
+Reference → puede ser null
+
+Primitive → sin métodos
+Reference → puede usar métodos
+```
