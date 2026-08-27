@@ -34,10 +34,10 @@ public class Overloading {
     // --- SOBRECARGAS IN VÁLIDAS (Descomentar para ver el error de compilación) ---
 
     // Error 1: Intenta sobrecargar cambiando SOLO el tipo de retorno
-    // public int fly(int numMiles) { return numMiles; } // ❌ DOES NOT COMPILE
+    // public int fly(int numMiles) { return numMiles; } // DOES NOT COMPILE
 
     // Error 2: Intenta sobrecargar cambiando SOLO a 'static'
-    // public static void fly(int numMiles) { } // ❌ DOES NOT COMPILE
+    // public static void fly(int numMiles) { } // DOES NOT COMPILE
 
     public static void main(String[] args) {
         Overloading o = new Overloading();

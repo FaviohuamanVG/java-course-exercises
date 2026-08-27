@@ -31,8 +31,8 @@ public class PassingData {
         int number = 1;
         String letters = "abc";
 
-        number(number);              // ⚠️ EL RETORNO SE IGNOORA: number sigue siendo 1
-        letters = letters(letters);  // ✅ EL RETORNO SE ASIGNA: letters ahora es "abcd"
+        number(number);              // EL RETORNO SE IGNOORA: number sigue siendo 1
+        letters = letters(letters);  // EL RETORNO SE ASIGNA: letters ahora es "abcd"
 
         System.out.println("4. Resultado combinado: " + number + letters); // Imprime 1abcd
     }

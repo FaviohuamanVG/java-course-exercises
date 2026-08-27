@@ -15,7 +15,7 @@ public class ParsingDate {
         DateTimeFormatter f = DateTimeFormatter.ofPattern("MM dd yyyy");
 
         // Parseo con formateador personalizado
-        LocalDate date = LocalDate.parse("01 02 2015", f);
+        LocalDate date = LocalDate.parse("2024 01 02", f);
 
         // Parseo con el formateador estándar por defecto (ISO)
         LocalTime time = LocalTime.parse("11:22");

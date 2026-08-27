@@ -21,15 +21,15 @@ public class Initializers {
     // Forma 2 de inicializar static final: En la misma línea de declaración
     private static final int three = 3; 
     
-    // private static final int four; // ❌ NO COMPILA: jamás se inicializa dentro del bloque ni en su declaración.
+    // private static final int four; // NO COMPILA: jamás se inicializa dentro del bloque ni en su declaración.
 
     static {
         System.out.println("-> Ejecutando segundo bloque static...");
         one = 1;      // OK: no es final, admite múltiples asignaciones.
         two = 2;      // OK: primera y única asignación válida para "two".
         
-        // three = 3; // ❌ NO COMPILA: reasignación de "three" (ya se asignó arriba).
-        // two = 4;   // ❌ NO COMPILA: reasignación de "two" (ya se le asignó valor en la línea anterior).
+        // three = 3; // NO COMPILA: reasignación de "three" (ya se asignó arriba).
+        // two = 4;   // NO COMPILA: reasignación de "two" (ya se le asignó valor en la línea anterior).
     }
 
     // --- MÉTODO MAIN PARA DOCUMENTAR Y PROBAR EL CÓDIGO ---

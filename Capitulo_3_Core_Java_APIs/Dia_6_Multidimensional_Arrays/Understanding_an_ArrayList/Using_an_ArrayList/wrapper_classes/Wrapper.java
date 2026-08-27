@@ -14,7 +14,9 @@ public class Wrapper {
    public static void main(String[] args) {
     // Convertir String  -> primitivo o wrapper
     int primitive = Integer.parseInt("123"); // devuelve un int primitivo
-    Integer wrapper = Integer.valueOf("123"); // devuelve un Integer wrapper
+    Integer wrapper = Integer.valueOf("12.3"); // devuelve un Integer wrapper
+
+    System.out.println(primitive + wrapper);
 
     // Exceptions:
     // int bad1 = Integer.parseInt("a"); // throws NumberFormatException
