@@ -1,4 +1,4 @@
-package com.app.Understanding_Java_Statements.The_if_then_Statement;
+package com.app.Capitulo_2_Dia_3.Understanding_Java_Statements.The_if_then_Statement;
 
 public class Senteces_Stament {
     /*

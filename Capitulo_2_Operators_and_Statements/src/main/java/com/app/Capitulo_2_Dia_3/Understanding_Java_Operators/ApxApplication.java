@@ -1,4 +1,4 @@
-package com.app.Understanding_Java_Operators;
+package com.app.Capitulo_2_Dia_3.Understanding_Java_Operators;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

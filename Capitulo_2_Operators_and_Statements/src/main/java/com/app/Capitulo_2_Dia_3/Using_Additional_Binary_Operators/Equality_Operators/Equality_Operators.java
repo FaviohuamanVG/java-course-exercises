@@ -1,4 +1,4 @@
-package com.app.Using_Additional_Binary_Operators.Equality_Operators;
+package com.app.Capitulo_2_Dia_3.Using_Additional_Binary_Operators.Equality_Operators;
 import java.io.File; // Importa la clase File para poder crear objetos de tipo File.
 
 

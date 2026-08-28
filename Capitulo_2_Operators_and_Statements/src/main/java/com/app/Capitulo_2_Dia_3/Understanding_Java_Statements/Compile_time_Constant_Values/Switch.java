@@ -1,4 +1,4 @@
-package com.app.Understanding_Java_Statements.Compile_time_Constant_Values;
+package com.app.Capitulo_2_Dia_3.Understanding_Java_Statements.Compile_time_Constant_Values;
 
 public class Switch {
     /*  

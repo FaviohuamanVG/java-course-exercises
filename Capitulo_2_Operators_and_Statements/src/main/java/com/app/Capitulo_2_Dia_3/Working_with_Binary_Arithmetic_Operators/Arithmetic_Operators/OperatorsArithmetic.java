@@ -1,4 +1,4 @@
-package com.app.Working_with_Binary_Arithmetic_Operators.Arithmetic_Operators;
+package com.app.Capitulo_2_Dia_3.Working_with_Binary_Arithmetic_Operators.Arithmetic_Operators;
 
 public class OperatorsArithmetic {
     /* Operadores Basicos:
@@ -33,13 +33,60 @@ public class OperatorsArithmetic {
     public static void main(String[] args) {
 
         System.out.println(9 / 3); // output : 3
+
+        /*
+        Es operador de division, el cual divide el primer operando entre el segundo operando
+        y devuelve el cociente de la division.
+        */
+
         System.out.println(9 % 3); // output : 0
+
+        /*
+        Es operador de modulo, el cual divide el primer operando entre el segundo y el
+        resultado es el residuo de la division.
+        */
+
         System.out.println(10 / 3); // output : 3
+
+        /*
+        Imprime 3, ya que el operador de division devuelve el
+    cociente de la division, y 10/3 = 3.3333, pero el resultado es un entero
+        */
+
         System.out.println(10 % 3); // output : 1
+
+        /*
+        El operador de modulo devuelve el residuo de la division, y 10/3 = 3.3333
+        el residuo es 1, por lo tanto el resultado es 1.
+        */
+
         System.out.println(11 / 3); // output : 3
+
+        /*
+        El operador de division devuelve el cociente de la division, y 11/3 = 3.6666
+        aqui no se redondea el cociente es 3, por lo tanto el resultado es 3.
+        */
+
         System.out.println(11 % 3); // output : 2
+
+        /*
+        El operador de modulo devuelve el residuo de la division, y 11/3 = 3.6666
+        el residuo es 2, por lo tanto el resultado es 2.
+        */
+
         System.out.println(12 / 3); // output : 4
+
+        /*
+        El operador de division devuelve el cociente de la division, y 12/3 = 4
+        por lo tanto el resultado es 4.
+        */
+
         System.out.println(12 % 3); // output : 0
+
+        /*
+        El operador de modulo devuelve el residuo de la division, y 12/3 = 4
+        el residuo es 0, por lo tanto el resultado es 0.
+        */
         
     }
 

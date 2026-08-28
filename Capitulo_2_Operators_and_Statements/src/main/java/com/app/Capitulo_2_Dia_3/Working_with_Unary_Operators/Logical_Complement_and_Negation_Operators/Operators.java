@@ -1,4 +1,4 @@
-package com.app.Working_with_Unary_Operators.Logical_Complement_and_Negation_Operators;
+package com.app.Capitulo_2_Dia_3.Working_with_Unary_Operators.Logical_Complement_and_Negation_Operators;
 
 public class Operators {
     // Operador ! — complemento lógico

@@ -1,4 +1,4 @@
-package com.app.Using_Additional_Binary_Operators.Relational_Operators;
+package com.app.Capitulo_2_Dia_3.Using_Additional_Binary_Operators.Relational_Operators;
 
 public class Operators {
     public static void main(String[] args) {

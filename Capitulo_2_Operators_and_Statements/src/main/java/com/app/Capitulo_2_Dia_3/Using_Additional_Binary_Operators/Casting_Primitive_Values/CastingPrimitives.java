@@ -1,4 +1,4 @@
-package com.app.Using_Additional_Binary_Operators.Casting_Primitive_Values;
+package com.app.Capitulo_2_Dia_3.Using_Additional_Binary_Operators.Casting_Primitive_Values;
 
 public class CastingPrimitives {
     public static void main(String[] args) {

@@ -1,8 +1,14 @@
-package com.app.Understanding_Java_Operators;
+package com.app.Capitulo_2_Dia_3.Understanding_Java_Operators;
 
 public class JavaOperators {
 
     // Operador: Simbolo que realiza una operacion sobre uno o mas valores
+
+    /*
+    En java los operadores no se evaluan simplemente de izquierda a derecha
+    estos tienen un orden una prioridad de que operacion se ejecuta primero 
+    y cual despues.
+    */
     /* 
     * 5 + 3 - Donde 5 y 3 son operandos
     * y el + es el operador
@@ -34,6 +40,18 @@ public class JavaOperators {
 
     int y = 4;
     double x = 3 + 2 * --y;
+
+    // Resultado x = 9.0, y = 3
+
+    /*
+    int y = 4; se guarda su valor en memoria en la variable y
+    3 + 2 * --y;  --y (el operador --y el cual resta 1 antes de usar el valor)
+    es mas importante que *, y el * mas importante que el +
+    entonce se decrememnta y que pasa de tener 4 a tener 3 y eso se usa
+    en la operacion = 3 + 2 * 3 (se multiplica 2 * 3 al tener mas prioridad que el +)
+    = 3 + 6 finalmente se puede sumar y el resultado es = 9.0;
+    double x = 9.0;  y = 3;
+    */
 
     
     // Imprimir los valores de x e y

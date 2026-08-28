@@ -1,4 +1,4 @@
-package com.app.Understanding_Java_Statements.Ternary_Operator;
+package com.app.Capitulo_2_Dia_3.Understanding_Java_Statements.Ternary_Operator;
 
 public class OperatorTernary {
     /* 
