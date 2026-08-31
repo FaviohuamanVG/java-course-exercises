@@ -1,4 +1,4 @@
-package Understanding_Exceptions.Calling_Methods_That_Throw_Exceptions.Subclasses;
+package Dia_Java14_Exceptions.Calling_Methods_That_Throw_Exceptions.Subclasses;
 
 public class Bunny extends Hopper {
     /*

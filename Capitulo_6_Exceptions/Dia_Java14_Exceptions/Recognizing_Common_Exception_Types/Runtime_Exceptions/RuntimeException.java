@@ -1,4 +1,4 @@
-package Understanding_Exceptions.Recognizing_Common_Exception_Types.Runtime_Exceptions;
+package Dia_Java14_Exceptions.Recognizing_Common_Exception_Types.Runtime_Exceptions;
 
 public class RuntimeException {
     /*

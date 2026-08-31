@@ -1,4 +1,4 @@
-package Using_a_tr_Statement.Adding_a_finally_Block;
+package Dia_Java_13_Exceptions.Using_a_tr_Statement.Adding_a_finally_Block;
 
 public class Finally {
     /*

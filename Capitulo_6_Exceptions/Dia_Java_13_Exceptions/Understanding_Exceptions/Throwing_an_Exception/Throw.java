@@ -1,4 +1,4 @@
-package Understanding_Exceptions.Throwing_an_Exception;
+package Dia_Java_13_Exceptions.Understanding_Exceptions.Throwing_an_Exception;
 
 public class Throw {
     /*

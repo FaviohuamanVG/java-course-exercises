@@ -1,4 +1,4 @@
-package Understanding_Exceptions.Calling_Methods_That_Throw_Exceptions;
+package Dia_Java14_Exceptions.Calling_Methods_That_Throw_Exceptions;
 
 public class Bunny {
     /*

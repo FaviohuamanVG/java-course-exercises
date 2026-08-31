@@ -30,6 +30,15 @@ public class Switch {
         }
         */
 
+
+        /*
+        El switch el una estructura de control para la 
+        simplificacion de multiples if-else, pero no es
+        recomendable utilizarlo para casos donde estas
+        necesiten de una expresion booleana, ya que no 
+        es posible utilizarlos        
+        */
+
         // En lugar de realizar un if-else, se puede utilizar un switch para simplificar.
         int dayOfWeek = 5;
         switch(dayOfWeek) {
@@ -44,6 +53,14 @@ public class Switch {
         break;
         }
 
+        /*
+        Aqui estamos realizando un switch sin el uso de break, lo que
+        hace que se ejecute el bloque de codigo del default ya que hay
+        un break terminando el default deteniendo la ejecucion del switch.
+        */
+
+
+
         int dayOfWeeks = 5;
         switch(dayOfWeeks) {
         case 0:
@@ -54,6 +71,15 @@ public class Switch {
             System.out.println("Saturday");
         break;
         }
+
+        /*
+        
+        Aqui estamos realizando un switch sin el uso de break, lo que
+        hace que se ejecute el bloque de codigo del default ya el case 0
+        no cumple con la condicion y se salta al default y como no existe
+        un break con el que termine sigue hasta el caso 6 haciendo que se
+        imprimian 2 valores: Weekday y Saturday.
+        */
 
    }
 }   

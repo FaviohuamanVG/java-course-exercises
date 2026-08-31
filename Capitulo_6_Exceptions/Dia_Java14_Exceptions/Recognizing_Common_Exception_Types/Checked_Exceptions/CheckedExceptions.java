@@ -1,4 +1,4 @@
-package Understanding_Exceptions.Recognizing_Common_Exception_Types.Checked_Exceptions;
+package Dia_Java14_Exceptions.Recognizing_Common_Exception_Types.Checked_Exceptions;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;

@@ -15,5 +15,16 @@ public class Operators {
         System.out.println(x <= y); // Outputs true
         System.out.println(x >= z); // Outputs true
         System.out.println(x > z); // Outputs false
+
+        /*
+        Tenemos 4 tipos de impresiones con el operador de comparacion, donde
+        la primera nos da un resultado de true pq 10 es menor que 20 haciendo
+        que la comparacion sea < menor que, la segunda nos da un resultado de 
+        true pq 10 es menor o igual que 20, la tercera nos da un resultado de 
+        true pq 10 es mayor o igual que 10 y la cuarta nos da un resultado de 
+        false pq 10(x) no es mayor que 10(z).
+        */
+
+
     }
 }

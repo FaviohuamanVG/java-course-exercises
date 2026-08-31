@@ -1,4 +1,4 @@
-package Using_a_tr_Statement;
+package Dia_Java_13_Exceptions.Using_a_tr_Statement;
 
 public class Try {
     /*

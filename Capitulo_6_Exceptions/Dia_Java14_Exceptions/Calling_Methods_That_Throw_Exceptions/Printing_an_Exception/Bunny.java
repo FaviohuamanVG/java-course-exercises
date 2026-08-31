@@ -1,4 +1,4 @@
-package Understanding_Exceptions.Calling_Methods_That_Throw_Exceptions.Printing_an_Exception;
+package Dia_Java14_Exceptions.Calling_Methods_That_Throw_Exceptions.Printing_an_Exception;
 
 import java.io.IOException;
 

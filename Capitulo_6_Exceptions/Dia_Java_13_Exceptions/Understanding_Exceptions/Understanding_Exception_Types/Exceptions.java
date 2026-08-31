@@ -1,4 +1,4 @@
-package Understanding_Exceptions.Understanding_Exception_Types;
+package Dia_Java_13_Exceptions.Understanding_Exceptions.Understanding_Exception_Types;
 
 public class Exceptions {
     /*

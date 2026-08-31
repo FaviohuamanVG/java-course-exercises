@@ -1,4 +1,4 @@
-package Understanding_Exceptions.The_Role_of_Exceptions;
+package Dia_Java_13_Exceptions.Understanding_Exceptions.The_Role_of_Exceptions;
 
 public class Zoo {
     /*

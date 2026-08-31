@@ -1,4 +1,4 @@
-package Using_a_tr_Statement.Catching_Various_Types_of_Exceptions;
+package Dia_Java_13_Exceptions.Using_a_tr_Statement.Catching_Various_Types_of_Exceptions;
 
 public class MultipleCatch {
     /*

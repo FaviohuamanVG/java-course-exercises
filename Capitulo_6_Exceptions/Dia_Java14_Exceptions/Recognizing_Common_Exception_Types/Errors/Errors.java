@@ -1,4 +1,4 @@
-package Understanding_Exceptions.Recognizing_Common_Exception_Types.Errors;
+package Dia_Java14_Exceptions.Recognizing_Common_Exception_Types.Errors;
 
 public class Errors {
     /*
